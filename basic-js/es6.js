@@ -126,8 +126,8 @@ const updateCart = (id,name,type,price,status, stock) => {
     })
 };
 
-// addItem("Keyboard gaming", "keyboard", 50000, 2);
-// showCarts();
+addItem("Press play keyboard", "keyboard", 700000, 7);
+showCarts();
 
-getCartById(1);
+// getCartById(3);
 
