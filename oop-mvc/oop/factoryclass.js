@@ -34,7 +34,12 @@ class Office{
     }
 
     showStaffs(){
+        console.log("Staff List:")
+        this.rooms.forEach((room,index) => {
+            const {name, job} = room
 
+            console.log(`${index +1}. ${name} - ${job}`)
+        })
     }
 
     addStaff(name, job, isGraduated, city, skills){
@@ -47,6 +52,10 @@ class Office{
                 break;
         }
     }
+
+    removeStaff(name){
+        this.rooms = this.rooms.filter(room => room.name !== name)
+    }
 }
 
 const office = new Office();
@@ -54,5 +63,7 @@ const office = new Office();
 office.addStaff("yuda", "developer", true, "medan", ["js", "css"]);
 office.addStaff("david", "designer", false, "manado", []);
 
-console.log(office);
+// console.log(office);
+office.removeStaff("david")
+office.showStaffs();
 
