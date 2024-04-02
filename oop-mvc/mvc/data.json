@@ -1,0 +1,30 @@
+[
+   {
+      "id": 1,
+      "name": "Honda Civic",
+      "brand": "honda",
+      "price": 15000,
+      "type": "sedan"
+   },
+   {
+      "id": 2,
+      "name": "Evantador",
+      "brand": "lamborgini",
+      "price": 30000,
+      "type": "super car"
+   },
+   {
+      "id": 3,
+      "name": "Pickup",
+      "brand": "open",
+      "price": 10000,
+      "type": "open"
+   },
+   {
+      "id": 4,
+      "name": "Pajero",
+      "brand": "misubisi",
+      "price": 20000,
+      "type": "mobil"
+   }
+]
